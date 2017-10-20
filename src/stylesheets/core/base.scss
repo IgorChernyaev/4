@@ -1,0 +1,30 @@
+// сперва подрубай фонт с гугла. если фонт не с гугла, в отдельный файл его и перед бейсом подрубай
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic");
+
+// сбрасывай стили, которые не нравятся - например, маргин у боди, оутлайн у ссылок при фокусе итд
+* {
+    box-sizing: border-box;
+}
+
+// потом применяй базовые стили к боди, минимальную высоту, шрифты, цвета - все, что наследуется и везде одинаковое
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    background-color: $white;
+    font-family: $basefont;
+}
+
+// затем твои классы-хелперы, типа контейнера и клеарфикса
+.clearfix {
+    &::before {
+        display: table;
+        content: "";
+    }
+
+    &::after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+}
