@@ -1,0 +1,53 @@
+.tick {
+  display: block;
+  text-align: left;
+
+  &__tick-image {
+    display: inline-block;
+    background: url(images/tick.png) no-repeat center / cover;
+    vertical-align: middle;
+    width: 13px;
+    height: 12px;
+  }
+
+  &__tick-text {
+    display: inline-block;
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 10px;
+    color: $black-31;
+  }
+
+  @media only screen and (min-width: $viewport-sm) {
+    
+    &__tick-image {
+      width: 16px;
+      height: 15px;
+    }
+
+    &__tick-text {
+      font-size: 12px;
+    }
+  }
+
+  @media only screen and (min-width: $viewport-md) {
+    
+    &__tick-image {
+      width: 20px;
+      height: 19px;
+    }
+
+    &__tick-text {
+      font-size: 13px;
+    } 
+  }
+
+  @media only screen and (min-width: $viewport-xl) {
+
+    &--width {
+      display: inline-block;
+      width: 49%;
+      text-align: left;
+    }
+  }
+}

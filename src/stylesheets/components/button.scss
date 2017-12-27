@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  margin: 0px auto 50px;
+  padding: 8px 42px 10px;
+  border-radius: 3px;
+  background-color: $red;
+  
+  &:hover {
+    background-color: $red-ec;
+  }
+
+  &:active {
+    background-color: $red-ab;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  &--margin {
+    margin: 0;
+  }
+}

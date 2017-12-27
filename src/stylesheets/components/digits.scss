@@ -1,0 +1,52 @@
+.digits {
+  display: block;
+  text-align: center;
+
+  &__item {
+    display: block;
+    font-family: PT Sans;
+    text-align: center;
+  }
+
+  &__title-one {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 26px;
+    color: $red;
+  }
+
+  &__title-two {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  @media only screen and (min-width: $viewport-md) {
+    
+    &__item {
+      display: inline-block;
+      vertical-align: top;
+      width: 19%;
+    }
+
+    &__title-one {
+      margin-top: 20px;
+    } 
+    
+    &__title-two {
+      margin-bottom: 20px;
+    }  
+  }
+
+  @media only screen and (min-width: $viewport-xl) {
+
+    &__title-one {
+      font-size: 30px;
+    } 
+    
+    &__title-two {
+      font-size: 12px;
+    } 
+  }
+}

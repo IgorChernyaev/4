@@ -1,0 +1,97 @@
+.image-text {
+  display: inline-block;
+  margin: 10px 5px;
+  text-align: center;
+  vertical-align: top;
+  width: 140px;
+  height: 190px;
+
+  &__image {
+    display: inline-block;
+    width: 114px;
+    height: 114px;
+    margin: 0 auto 10px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &--sport {
+      background: url(images/sport.png);
+    }
+
+    &--hobby {
+      background: url(images/hobby.png);
+    }
+
+    &--art {
+      background: url(images/art.png);
+    }
+
+    &--transport {
+      background: url(images/transport.png);
+    }
+
+    &--pdd {
+      background: url(images/pdd.png);
+    }
+
+    &--traditions {
+      background: url(images/traditions.png);
+    }
+
+    &--score {
+      background: url(images/score.png);
+    }
+
+    &--technology {
+      background: url(images/technology.png);
+    }
+
+    &--health {
+      background: url(images/health.png);
+    }
+
+    &--zodiac {
+      background: url(images/zodiac.png);
+    }
+
+    &--rating {
+      background: url(images/rating.png)no-repeat center;
+    }
+
+    &--progress {
+      background: url(images/progress.png)no-repeat center;
+    }
+
+    &--dictionary {
+      background: url(images/dictionary.png)no-repeat center;
+    }
+
+    &--forum {
+      background: url(images/forum.png)no-repeat center;
+    }
+
+    &--keyboard {
+      background: url(images/keyboard.png)no-repeat center;
+    }
+
+    &--access {
+      background: url(images/access.png)no-repeat center;
+    }
+  }
+
+  &--margin {
+    margin: 10px 30px;
+    width: 180px;
+  }
+
+  &__text {
+    display: block;
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 17px;
+    color: $black;
+    text-align: center;
+  }
+}

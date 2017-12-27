@@ -1,0 +1,11 @@
+.title-three {
+  font-family: PT Sans;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: $black-31;
+
+  &--lowercase {
+    text-transform: lowercase;
+  }
+}

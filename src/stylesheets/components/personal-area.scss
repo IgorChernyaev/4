@@ -1,0 +1,34 @@
+.personal-area {
+  display: block;
+  text-align: center;
+
+  &__header {
+    display: block;
+    width: 100%;
+    margin: 60px auto 0;
+  }
+
+  &__content {
+    display: block;
+    margin: 20px auto 0;
+  }
+
+  &__butt {
+    display: block;
+    margin: 40px auto 10px;
+  }
+
+  @media only screen and (min-width: $viewport-md) {
+
+    &__header {
+      width: 55%;
+    }
+  }
+
+  @media only screen and (min-width: $viewport-xl) {
+
+    &__header {
+      width: 50%;
+    }
+  }
+}

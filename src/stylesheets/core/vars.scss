@@ -1,8 +1,19 @@
-// определяешь переменные, на которых твое приложение будет менять экран - брейкпоинты адаптива
-$viewport-md: 1024px;
+$viewport-xs: 0;
+$viewport-sm: 375px;
+$viewport-md: 768px;
+$viewport-lg: 1024px;
+$viewport-xl: 1366px;
 
-// все цвета кладешь в переменные, градации серого описываются как $gray-c8: #c8c8c8; их всегда много
+
 $white: #fff;
+$black: #000;
+$gray: #fafafa;
+$red: #ff203d;
+$red-ab: #ab1327;
+$red-ec: #ec6072;
+$black-31: #313131;
+$blue: #00649b;
 
-//шрифты описываются сперва основной твой потом запасные системные - гельветика для маков и ариал для винды
-$basefont: "Open Sans", "Helvetica", "Arial", sans-serif;
+
+
+$basefont: 'PT Sans', sans-serif;

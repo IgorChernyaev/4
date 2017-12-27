@@ -1,0 +1,74 @@
+.images {
+  display: inline-block;
+  width: 137px;
+  height: 137px;
+  margin: 0 20px 40px;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &--video {
+    background: url(images/sc_video.png);
+
+    &:hover {
+      background: url(images/sc_video_h.png);
+    }
+  }
+
+  &--drag {
+    background: url(images/sc_drag.png);
+
+    &:hover {
+      background: url(images/sc_drag_h.png);
+    }
+  }
+
+  &--test {
+    background: url(images/sc_test.png);
+
+    &:hover {
+      background: url(images/sc_test_h.png);
+    }
+  }
+
+  &--consultation {
+    background: url(images/sc_consultation.png);
+
+    &:hover {
+      background: url(images/sc_consultation_h.png);
+    }
+  }
+
+  &--word {
+    background: url(images/sc_word.png);
+
+    &:hover {
+      background: url(images/sc_word_h.png);
+    }
+  }
+
+  &--choice {
+    background: url(images/sc_choice.png);
+
+    &:hover {
+      background: url(images/sc_choiсe_h.png);
+    }
+  }
+
+  &--correctly {
+    background: url(images/sc_correctly.png);
+
+    &:hover {
+      background: url(images/sc_correctly_h.png);
+    }
+  }
+
+  &--problems {
+    background: url(images/sc_problems.png);
+
+    &:hover {
+      background: url(images/sc_problems_h.png);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.theme {
+  display: block;
+  text-align: center;
+
+  &__header {
+    display: block;
+    margin: 40px auto 0;
+  }
+
+  &__content {
+    display: block;
+    margin: 20px auto 50px;
+  }
+
+  &__footer {
+    display: block;
+    margin: 0 auto 30px;
+  }
+}

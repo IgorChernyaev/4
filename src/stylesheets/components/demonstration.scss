@@ -1,0 +1,14 @@
+.demonstration {
+  display: block;
+  text-align: center;
+
+  &__header {
+    display: inline-block;
+    margin: 40px auto 0;
+  }
+
+  &__content {
+    display: inline-block;
+    margin: 20px 40px 0 0;
+  }
+}

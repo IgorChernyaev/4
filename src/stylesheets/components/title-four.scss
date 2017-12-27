@@ -1,0 +1,10 @@
+.title-four {
+  font-family: PT Sans;
+  font-weight: 700;
+  font-size: 18px;
+  color: $black-31;
+
+  &--strong {
+    color: $red;
+  }
+}

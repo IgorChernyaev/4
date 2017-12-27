@@ -1,0 +1,39 @@
+.heading {
+  display: inline-block;
+  padding-top: 10px;
+  text-align: center;
+
+  &__logo {
+    margin-bottom: 20px;
+    width: 154px;
+    height: 33px;
+    background: url(images/logo.png) no-repeat center / cover;
+  }
+
+  &__telephone {
+    font-family: PT Sans;
+    font-size: 12px;
+    color: $white;
+    font-weight: 400;
+  }
+
+  @media only screen and (min-width: $viewport-md) {
+    display: inline-block;
+    width: 90%;
+
+    &__logo {
+      float: left;
+    }
+
+    &__telephone {
+      margin-top: 10px;
+      float: right;
+      font-size: 17px;
+    }
+  }
+
+  @media only screen and (min-width: $viewport-lg) {
+    width: 100%;
+  }
+}
+

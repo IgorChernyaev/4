@@ -1,21 +1,18 @@
-// разбиваешь свои компоненты на файлы, импортишь сюда.
-// в кажом файле у тебя хрень вот такого вида
-.nav {
-    &__left-side {}
-
-    &__right-side {
-        &--red {}
-
-        &::after {}
-
-        &:hover {}
-    }
-}
-// после компиляции станет вот так
-.nav {}
-.nav__left-side {}
-.nav__right-side {}
-.nav__right-side--red {}
-.nav__right-side::after {}
-.nav__right-side:hover {}
-// это надо чтобы у тебя селекторы не наращивали мощь и была понятная структура
+@import "wrap";
+@import "heading";
+@import "header-text";
+@import "digits";
+@import "test";
+@import "title-three";
+@import "title-four";
+@import "tick";
+@import "button";
+@import "theme";
+@import "image-text";
+@import "demonstration";
+@import "images";
+@import "personal-area";
+@import "effect";
+@import "certificate";
+@import "access";
+@import "payment";

@@ -1,0 +1,44 @@
+.certificate {
+  display: inline-block;
+  text-align: center;
+
+  &__header {
+    display: block;
+    margin: 40px auto 0;
+  }
+
+  &__content {
+    display: block;
+    margin: 50px auto 50px;
+  }
+
+  &__photo {
+    display: inline-block;
+    background: url(images/certificate.png) no-repeat center / cover;
+    width: 250px;
+    height: 180px;
+  }
+
+  @media only screen and (min-width: $viewport-md) {
+
+    &__photo {
+      width: 425px;
+      height: 311px;
+    }
+  }
+
+  @media only screen and (min-width: $viewport-md) {
+
+    &__photo {
+
+      &:hover {
+        cursor: zoom-in
+      }
+
+      &:active {
+        width: 628px;
+        height: 460px;
+      }
+    }
+  }
+}
