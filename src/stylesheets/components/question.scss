@@ -1,0 +1,21 @@
+.question {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+
+  &__paragraph {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: $white;
+
+    &--big {
+      font-size: 21px;
+      font-weight: 700;
+    }
+  }
+}

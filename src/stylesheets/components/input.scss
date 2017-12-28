@@ -1,0 +1,65 @@
+.input {
+  display: block;
+  text-align: center;
+
+  &__name-block {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  &__phone-block {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__phone {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  &__email-block {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__email {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  &__butt {
+    border: 0;
+    text-decoration: none;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  @media only screen and (min-width: $viewport-xl) {
+
+    &__name-block {
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    &__phone-block {
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    &__email-block {
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+}
